@@ -12,6 +12,7 @@ davidnd@stud.ntnu.no <br/>
 For this project I trained a total of 5 image colorization networks (models M1 to M5) and developed a framework to adapt it for Video Colorization.<br/>
 All the trained models are available in: [LINK](https://drive.google.com/drive/folders/1G1y8EGjSEvJBssqf1bIsurxtI1YDItSk) 
 
+<img src="images/architecturesUsed.png" width=500>
 
 ------------------
 **DATASETS:**
@@ -64,5 +65,4 @@ The MATLAB script used for cleaning the Places365 dataset and the list of discar
 <img src="images/collage4.png" width=500>
 
 
-<img src="images/architecturesUsed.png" width=500>
 
