@@ -1,20 +1,21 @@
 # VideoColorization
-This is my repo for **Automatic Video Colorization with Deep Learning** <br/>
+This is my repo for the project **Automatic Video Colorization with Deep Learning** <br/>
 **David Norman Díaz Estrada** <br/>
 davidnd@stud.ntnu.no <br/>
 
 
 
 
-
+------------------
 **TRAINED COLORIZATION NETWORKS:** <br/>
-For this project I trained a total of 5 image colorization networks (models M1 to M5) and developed a framework to adapt it for Video Colorization.
-The trained models are available in: [LINK](https://drive.google.com/drive/folders/1G1y8EGjSEvJBssqf1bIsurxtI1YDItSk) 
+------------------
+For this project I trained a total of 5 image colorization networks (models M1 to M5) and developed a framework to adapt it for Video Colorization.<br/>
+All the trained models are available in: [LINK](https://drive.google.com/drive/folders/1G1y8EGjSEvJBssqf1bIsurxtI1YDItSk) 
 
 
-
+------------------
 **DATASETS:**
-
+------------------
 1. Places 365 full dataset (cleaned):  
   - Available in: [LINK](https://drive.google.com/file/d/1jrqI_UkrKGnx93iLvNgPcBjK_Akbeus9/view) 
   - Total Images: 35,622
@@ -25,8 +26,9 @@ The trained models are available in: [LINK](https://drive.google.com/drive/folde
   - Training Images: 10,000
   - Testing Images: 1,000
 
-
+------------------
 **FILES IN THIS REPO:**<br/>
+------------------
 
 Demo script that allows to run either Image or Video Colorization with any of the trained models:
 - Image_and_video_colorization_demo.ipynb
@@ -41,3 +43,9 @@ The following files contain the scripts used to trained the models M1 to M5:
 The MATLAB script used for cleaning the Places365 dataset and the list of discarded images correspond to the following files:
 - dataset_cleaning.m
 - eraseGrayscaleImgs.txt
+
+
+------------------
+**RESULTS:**<br/>
+------------------
+
