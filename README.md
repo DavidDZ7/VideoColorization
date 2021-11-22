@@ -49,3 +49,20 @@ The MATLAB script used for cleaning the Places365 dataset and the list of discar
 **RESULTS:**<br/>
 ------------------
 
+<img src="images/collage_5models.png" width=500>
+
+
+<img src="images/collage2-1.png" width=500>
+
+
+<img src="images/collage2-2.png" width=500>
+
+
+<img src="images/collage3.png" width=500>
+
+
+<img src="images/collage4.png" width=500>
+
+
+<img src="images/architecturesUsed.png" width=500>
+
