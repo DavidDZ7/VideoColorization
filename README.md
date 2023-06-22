@@ -3,15 +3,29 @@ This is my repo for the project **Automatic Video Colorization with Deep Learnin
 **David Norman Díaz Estrada** <br/>
 davidnd@stud.ntnu.no <br/>
 
-
+In this project, I explored different encoder-decoder architectures for Image Colorization based on L*a*b* color space and created a framework for Automatic Video Colorization.
+I cleaned the Places 365 dataset and trained 5 different models from scratch. I used VGG16 and ResNet50 for the transfer learning. Model M5 gave the best results with ResNet50 as the backbone. 
 
 
 ------------------
 **TRAINED COLORIZATION NETWORKS:** <br/>
 ------------------
-For this project I trained a total of 5 image colorization networks (models M1 to M5) and developed a framework to adapt it for Video Colorization.<br/>
+I trained a total of 5 image colorization networks (models M1 to M5) and developed a framework to adapt it for Video Colorization.<br/>
 All the trained models are available in: [LINK](https://drive.google.com/drive/folders/1G1y8EGjSEvJBssqf1bIsurxtI1YDItSk) 
 
+Network Architecture: M1<br/>
+Architecture followed in [[1]](https://xiangyutang2.github.io/auto-colorization-autoencoders/.) and similar to [[2]](http://arxiv.org/abs/1712.03400
+).<br/>
+<img src="images/m1.jpg" width=500><br/>
+
+Network Architecture: M2 to M4<br/>
+Architecture followed in [[3]](https://github.com/bnsreenu/python_for_microscopists/blob/master/092-autoencoder_colorize_transfer_learning_VGG16_V0.1.py).<br/>
+<img src="images/m234.jpg" width=500><br/>
+
+Network Architecture: M5<br/>
+<img src="images/m5.jpg" width=500><br/>
+
+Summary of model architectures:<br/>
 <img src="images/architecturesUsed.png" width=500>
 
 ------------------
@@ -34,7 +48,7 @@ All the trained models are available in: [LINK](https://drive.google.com/drive/f
 Demo script that allows to run either Image or Video Colorization with any of the trained models:
 - Image_and_video_colorization_demo.ipynb
 
-The following files contain the scripts used to trained the models M1 to M5:
+The following files contain the scripts used to train the models M1 to M5:
 - M1_training.ipynb
 - M2_training.ipynb
 - M3_training.ipynb
