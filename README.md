@@ -28,6 +28,9 @@ Network Architecture: M5<br/>
 Summary of model architectures:<br/>
 <img src="images/architecturesUsed.png" width=500>
 
+Implementation details:<br/>
+<img src="images/implementation.jpg" width=500>
+
 ------------------
 **DATASETS:**
 ------------------
@@ -73,10 +76,13 @@ The MATLAB script used for cleaning the Places365 dataset and the list of discar
 <img src="images/collage2-2.png" width=500>
 
 
+Comparison of colorization of frames for test video #1:<br/>
 <img src="images/collage3.png" width=500>
 
 
+Comparison of colorization of frames for test video #2:<br/>
 <img src="images/collage4.png" width=500>
 
-
+Summary of results. Comparison of different encoder-decoder architectures for image colorization:<br/>
+<img src="images/results.jpg" width=500>
 
