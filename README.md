@@ -3,8 +3,14 @@ This is my repo for the project **Automatic Video Colorization with Deep Learnin
 **David Norman Díaz Estrada** <br/>
 davidnd@stud.ntnu.no <br/>
 
-In this project, I explored different encoder-decoder architectures for Image Colorization based on L*a*b* color space and created a framework for Automatic Video Colorization.
+In this project, I explored different encoder-decoder architectures for Image Colorization based on L\*a\*b\* color space and created a framework for Automatic Video Colorization.
 I cleaned the Places 365 dataset and trained 5 different models from scratch. I used VGG16 and ResNet50 for the transfer learning. Model M5 gave the best results with ResNet50 as the backbone. 
+
+Example with a video I recorded in Switzerland:<br/>
+
+https://github.com/DavidDZ7/VideoColorization/assets/55857465/c8b66ad2-cd56-444c-9cba-73aa0e325c04
+
+
 
 
 ------------------
